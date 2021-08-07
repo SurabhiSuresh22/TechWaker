@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TechWaker</title>
+	<meta charset="utf-8">
+
+<!-- fontawesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+	<script src="https://use.fontawesome.com/862a02d97c.js"></script>
+
+<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+	 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+
+<!-- Google fonts-->	
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- front page   NEED A LOGIN FORUM -->  
+<section id="title">
+<div class="container-fluid" style="background-color: lightblue;">
+	<!-- navbar  both side and top-->
+	<nav class="navbar fixed-top navbar-expand-lg justify-content-between navbar-dark">
+		<a class="navbar-brand mb-0 h1" href="#">TechWaker</a>	
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+		<ul class="navbar-nav ml-auto" style="margin-right: 10px; ">
+			<li class="nav-item">
+				<a class="nav-link" href="#blogs">Blogs</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#wfu">Write</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#WHO">About</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#contact">Contact</a>
+			</li>
+		</ul>
+		<form class="form-inline" action="#blogs" >   
+	    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+	    <!-- <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+		  <option selected></option>
+		  <option value="1">One</option>
+		  <option value="2">Two</option>
+		  <option value="3">Three</option>
+		</select> -->
+	    <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+  </form>
+		</div>		
+	</nav>
+
+	<!-- Title -->
+	<div class="row">
+		<div class="col-lg-6">
+			<h1>Welcome to, </h1><span class="heading">TechWaker!</span><br><a href="#contact">
+			<button class="b" type="button"><i class="fas fa-paper-plane" aria-hidden="true"></i>Drop a Mail!</button></a><a href="#blogs">
+			<button class="b" type="button"><i class="fab fa-readme"></i> Read our Blog</button></a>
+		</div>
+		<div class="col-lg-6">
+			<img src="reading.svg" alt="My Happy SVG"/>
+		</div>
+	</div>
+  
+</div>
+</section>
+
+<section id="WHO">
+<h2>Who we are?</h2>
+
+<div id="who-carousel" class="carousel slide" data-ride="carousel" data-interval="4000">
+	<div class="carousel-indicators">
+	    <button type="button" data-bs-target="#who-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+	    <button type="button" data-bs-target="#who-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+	    <button type="button" data-bs-target="#who-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  	</div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <p class="para">" We are a growing tech community, looking forward to contribute in bringing up more individuals in the tech domain "</p>
+	  <img class="d-block w-100 who-img" src="growth.svg">
+    </div>
+    <div class="carousel-item">
+    	<p class="para">" We intend to provide the right opporunities and resources in Machine Learning, NLP and Python "</p>
+        <img class="d-block w-100 who-img" src="coding.svg">
+    </div>
+    <div class="carousel-item">
+      <p class="para">" Let's not take it so tough, instead enjoy and learn through the concepts explained, so Welcome to TechWaker "</p>
+        <img class="d-block w-100 who-img" src="celeb.svg">
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- purchase blogs -->
+<section id="blogs" class="container">	
+
+<h2 align="center">Purchase our books!</h2>
+	
+<div class="row">		
+  	<div class="col-lg-4 col-xl-3 col-md-6"><div class="card" style="width: 18rem;">
+	    <img src="a.svg" class="card-img-top" alt="...">
+	 	<div class="card-body">
+		    <h5 class="card-title">Machine Learning</h5>
+		    <p class="card-text">Take quick preview of the course.Click on the image above.</p>
+		    <a href="#" class="btn btn-light btn-outline-dark">Rate: $5.00</a>
+		    <a href="#" class="btn btn-primary">Buy This</a>
+	    </div>
+      </div>
+  	</div>
+
+  	<div class="col-lg-4 col-xl-3 col-md-6"><div class="card" style="width: 18rem;">
+	    <img src="b.svg" class="card-img-top" alt="...">
+	 	<div class="card-body">
+		    <h5 class="card-title">Embedded Systems</h5>
+		    <p class="card-text">Take quick preview of the course.Click on the image above.</p>
+		    <a href="#" class="btn btn-light btn-outline-dark">Rate: $5.00</a>
+		    <a href="#" class="btn btn-primary">Buy This</a>
+	    </div>
+      </div>
+  	</div>
+
+  	<div class="col-lg-4 col-xl-3 col-md-6"><div class="card" style="width: 18rem;">
+	    <img src="c.svg" class="card-img-top" alt="...">
+	 	<div class="card-body">
+		    <h5 class="card-title">NLP</h5>
+		    <p class="card-text">Take quick preview of the course.Click on the image above.</p>
+		    <a href="#" class="btn btn-light btn-outline-dark">Rate: $5.00</a>
+		    <a href="#" class="btn btn-primary">Buy This</a>
+	    </div>
+      </div>
+  	</div>
+
+  	<div class="col-lg-4 col-xl-3 col-md-6"><div class="card" style="width: 18rem;">
+	    <img src="d.svg" class="card-img-top" alt="...">
+	 	<div class="card-body">
+		    <h5 class="card-title">Artificial Intelligence</h5>
+		    <p class="card-text">Take quick preview of the course.Click on the image above.</p>
+		    <a href="#" class="btn btn-light btn-outline-dark">Rate: $5.00</a>
+		    <a href="#" class="btn btn-primary">Buy This</a>
+	    </div>
+      </div>
+  	</div>
+
+  	<div class="col-lg-4 col-xl-3 col-md-6"><div class="card" style="width: 18rem;">
+	    <img src="c.svg" class="card-img-top" alt="...">
+	 	<div class="card-body">
+		    <h5 class="card-title">Python Tutorials</h5>
+		    <p class="card-text">Take quick preview of the course.Click on the image above.</p>
+		    <a href="#" class="btn btn-light btn-outline-dark">Rate: $5.00</a>
+		    <a href="#" class="btn btn-primary">Buy This</a>
+	    </div>
+      </div>	
+  	</div>
+
+  	<div class="col-lg-4 col-xl-3 col-md-6"><div class="card" style="width: 18rem;">
+	    <img src="d.svg" class="card-img-top" alt="...">
+	 	<div class="card-body">
+		    <h5 class="card-title">Web Development</h5>
+		    <p class="card-text">Take quick preview of the course.Click on the image above.</p>
+		    <a href="#" class="btn btn-light btn-outline-dark">Rate: $5.00</a>
+		    <a href="#" class="btn btn-primary">Buy This</a>		    
+	    </div>
+      </div>
+  	</div>
+
+  	<div class="col-lg-4 col-xl-3 col-md-6"><div class="card" style="width: 18rem;">
+	    <img src="a.svg" class="card-img-top" alt="...">
+	 	<div class="card-body">
+		    <h5 class="card-title">Reinforcement Learning</h5>
+		    <p class="card-text">Take quick preview of the course.Click on the image above.</p>	   
+		    <a href="#" class="btn btn-light btn-outline-dark">Rate: $5.00</a>
+		    <a href="#" class="btn btn-primary">Buy This</a>
+	    </div>
+      </div>
+  	</div>
+  	<div class="col-lg-4 col-xl-3 col-md-6"><div class="card" style="width: 18rem;">
+	    <img src="b.svg" class="card-img-top" alt="...">
+	 	<div class="card-body">
+		    <h5 class="card-title">Trending Technology</h5>
+		    <p class="card-text">Take quick preview of the course.Click on the image above.</p>
+		    <a href="#" class="btn btn-light btn-outline-dark">Rate: $5.00</a>
+		    <a href="#" class="btn btn-primary">Buy This</a>
+		    
+	    </div>
+      </div>
+	</div>		
+</div>
+</section>
+
+<section id="wfu" class="container-fluid write">
+	<h2 align="center">Write For Us</h2>
+	<p align="left"><img src="writing.svg">Are you tech savvy? Do you love gadgets? Do you enjoy writing? We have an opportunity for you!
+
+We at TechWaker are inviting applications for the position of tech content writers. Write product reviews, technical topics, tutorials and get paid for each article you submit. We have several students who are working as part-time content writers with us already!
+
+What are our considerations?
+ 
+If you are a good writer with a genuine passion for writing. be interested in AI research, then jump in, drop a mail to us with your resume and contact. Let us also know, why you want to be hired!</p>
+
+</section>
+
+<!-- footer follow us, quick links -->
+<section id="contact" class="container-fluid">
+	<h2 align="center">Let's Get Connected</h2>
+	<form class="contact" action="mailto:techwakerai@gmail.com" method="post">
+		<input type="text" name="name" placeholder="Name" required><br>
+		<input type="email" name="email" placeholder="Email" required><br>
+		<textarea placeholder="Message" required></textarea><br>
+		<button type="submit" class="b" style="border-color: gray;">Send Mail</button>
+	</form>
+</section>
+
+<!-- social media shortlinks-->
+<section id="social"class="container-fluid">
+	<div class="row">
+	<div class="col-lg-3 col-md-6"><p>Quick Links</p><hr width="75%">
+	<ul>
+		<li>Machine Learning</li>
+		<li>Deep Learning</li>
+		<li>Reinforcement Learning</li>
+		<li>Artificial Intelligence</li>
+	</ul></div>
+	<div class="col-lg-3 col-md-6"><p>Popular Courses</p><hr width="75%">
+	<ul>
+		<li>Python Tutorial</li>
+		<li>Embedded Systems</li>
+		<li>Web Development</li>
+		<li>App Development</li>
+	</ul></div>
+	<div class="col-lg-3 col-md-6"><p>Popular Blogs</p><hr width="75%">
+	<ul>
+		<li>Machine Learning</li>
+		<li>Deep Learning</li>
+		<li>Reinforcement Learning</li>
+		<li>Artificial Intelligence</li>
+	</ul></div>
+	<div class="col-lg-3 col-md-6"><p>Bootcamps</p><hr width="75%">
+	<ul>
+		<li>Python Tutorial</li>
+		<li>Embedded Systems</li>
+		<li>Web Development</li>
+		<li>App Development</li>
+	</ul></div>
+	</div>
+	<div class="follow"><p>Follow us on our social media accounts</p>
+		<a href=""><i class="fas fa-envelope"></i></a>
+		<a href=""><i class="fab fa-instagram"></i></a>
+		<a href=""><i class="fab fa-kaggle"></i></a>
+		<a href=""><i class="fab fa-github"></i></a>
+	</div>
+</section>
+
+	
+
+	
+</body> 
+</html>
